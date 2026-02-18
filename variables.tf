@@ -9,3 +9,9 @@ variable "project_name" {
   type        = string
   default     = "static-site"
 }
+
+variable "site_dir" {
+  description = "Relative path to the folder containing static site files (from the terraform directory)."
+  type        = string
+  default     = "site"
+}
