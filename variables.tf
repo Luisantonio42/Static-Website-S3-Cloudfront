@@ -15,3 +15,9 @@ variable "site_dir" {
   type        = string
   default     = "site"
 }
+
+variable "domain_name" {
+  description = "Custom domain for the website (recommended: www.site-name.com)."
+  type        = string
+  default     = "www.luisgarmir.com"
+}
