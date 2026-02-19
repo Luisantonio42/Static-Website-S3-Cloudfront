@@ -23,3 +23,7 @@ output "acm_dns_validation_records" {
 output "acm_certificate_arn" {
   value = aws_acm_certificate.site.arn
 }
+
+output "route53_nameservers" {
+  value = aws_route53_zone.primary.name_servers
+}
