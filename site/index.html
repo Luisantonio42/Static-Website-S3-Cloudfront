@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luis Garcia | Cloud / Software Engineer</title>
-    <meta name="description" content="Cloud & Software Engineer (AWS) focused on automation, scalable infrastructure, and platform tooling." />
+    <title>Luis Garcia | Cloud Engineer</title>
+    <meta name="description" content="Cloud Engineer with 4+ years building scalable infrastructure on AWS and Oracle Cloud. AWS Certified Solutions Architect." />
     <link rel="stylesheet" href="./styles.css" />
   </head>
 
@@ -14,7 +14,9 @@
 
       <nav class="nav">
         <a href="#about">About</a>
+        <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -27,24 +29,24 @@
         <div>
           <h1>Hi, I’m Luis.</h1>
           <p class="subtitle">
-            Cloud / Software Engineer focused on AWS, automation, and scalable infrastructure.
+            Cloud Engineer with 4+ years building and operating scalable infrastructure on AWS and Oracle Cloud.
           </p>
 
           <div class="cta">
             <a class="btn" href="https://www.linkedin.com/in/luisagm/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a class="btn btn-secondary" href="./luis_garcia_resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+            <a class="btn btn-secondary" href="./Luis_Garcia_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
           </div>
 
-          <p class="meta">Based in California · Open to Cloud Engineer / Software Engineer roles</p>
+          <p class="meta">California, USA · AWS Certified Solutions Architect · Terraform Associate</p>
         </div>
 
         <div class="card">
           <h2>What I do</h2>
           <ul>
-            <li>Design & operate cloud infrastructure (AWS)</li>
-            <li>Infrastructure as Code (Terraform / CloudFormation)</li>
+            <li>Design & operate cloud infrastructure (AWS, OCI)</li>
+            <li>Infrastructure as Code (Terraform)</li>
             <li>Platform tooling, automation, CI/CD</li>
-            <li>Backend APIs and reliability</li>
+            <li>IoT systems, monitoring, and incident response</li>
           </ul>
         </div>
       </section>
@@ -52,25 +54,107 @@
       <section id="about" class="container section">
         <h2>About</h2>
         <p>
-          I build and support cloud-native systems with a focus on reliability, security, and cost efficiency.
-          I enjoy turning manual processes into automation and making infrastructure predictable through IaC.
+          I'm a cloud engineer who enjoys solving complex infrastructure problems. Over the past 4+ years, I've worked across the full stack — building user-facing applications with React and Python, and owning the infrastructure those apps run on with AWS, OCI, and Terraform. At Vigelent I built a full IoT security platform from scratch, connecting physical devices to the cloud through AWS IoT Core, AppSync, and DynamoDB. At Oracle I've scaled that experience to enterprise environments, managing production systems and leading teams through complex deployments. I do my best work in environments where infrastructure reliability matters and there are real constraints to work within.
         </p>
+      </section>
+
+      <section id="experience" class="container section">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h3>Cloud Engineer</h3>
+              <span class="company">Oracle</span>
+              <span class="duration">March 2022 – Present</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Led 3-engineer team deploying high-availability OCI environment (9 compute instances), reducing post-release incidents</li>
+              <li>Reduced infrastructure provisioning time by 40% migrating to modular Terraform IaC</li>
+              <li>Managed 24/7 multi-tenancy infrastructure: 200+ compute instances across 3 tenancies, 3 VPCs, 15+ subnets</li>
+              <li>Caught 150+ concurrent infrastructure anomalies before customer impact through automated monitoring</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h3>Software Developer</h3>
+              <span class="company">Vigelent</span>
+              <span class="duration">Dec 2020 – Dec 2021</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Built full-stack IoT security hub from greenfield to production on AWS</li>
+              <li>Secured 10+ IoT devices with X.509 certificates and MQTT topic-level access controls</li>
+              <li>Achieved sub-500ms UI latency for live device updates using GraphQL subscriptions</li>
+              <li>Reduced incident resolution time by 50% through comprehensive troubleshooting runbooks</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section id="skills" class="container section">
         <h2>Skills</h2>
         <div class="grid">
           <div class="card">
-            <h3>Cloud</h3>
-            <p>AWS (VPC, IAM, EC2, S3, CloudWatch), Networking, Security basics</p>
-          </div>
-          <div class="card">
-            <h3>IaC</h3>
-            <p>Terraform, CloudFormation, CI/CD pipelines</p>
+            <h3>Cloud & Infrastructure</h3>
+            <p>AWS (EC2, S3, VPC, IAM, Lambda, IoT Core, AppSync, DynamoDB), Oracle Cloud (OCI), Terraform, Networking, Security</p>
           </div>
           <div class="card">
             <h3>Development</h3>
-            <p>JavaScript/TypeScript, APIs, scripting, troubleshooting</p>
+            <p>Python, TypeScript, JavaScript, Bash, React, Node.js, GraphQL, REST APIs</p>
+          </div>
+          <div class="card">
+            <h3>DevOps & Tools</h3>
+            <p>CI/CD, Git, Linux, CloudWatch, Monitoring, Incident Response, Runbooks</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="container section">
+        <h2>Certifications</h2>
+        <div class="cert-grid">
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <h3>AWS Certified Solutions Architect – Associate</h3>
+            <p class="cert-date">May 2023</p>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <path d="M9 9h6v6H9z"/>
+              </svg>
+            </div>
+            <h3>HashiCorp Certified: Terraform Associate (004)</h3>
+            <p class="cert-date">Feb 2026</p>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
+            </div>
+            <h3>Oracle Cloud Infrastructure Certified Architect Associate</h3>
+            <p class="cert-date">May 2022</p>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                <line x1="12" y1="22.08" x2="12" y2="12"/>
+              </svg>
+            </div>
+            <h3>Oracle Cloud Infrastructure Observability Professional</h3>
+            <p class="cert-date">Apr 2024</p>
           </div>
         </div>
       </section>
@@ -78,40 +162,114 @@
       <section id="projects" class="container section">
         <h2>Projects</h2>
 
-        <div class="grid">
-          <article class="card">
-            <h3>Terraform AWS Baseline</h3>
-            <p>Reusable modules for VPC, IAM roles, logging, and security defaults.</p>
-            <div class="links">
-              <a href="#" target="_blank" rel="noreferrer">Repo</a>
-              <a href="#" target="_blank" rel="noreferrer">Write-up</a>
+        <div class="projects-grid">
+          <article class="card project-card">
+            <div class="project-header">
+              <h3>Kapi - Service Marketplace</h3>
+              <span class="project-status">In Development</span>
+            </div>
+            <p>Building a full-stack service marketplace platform connecting service providers with customers. Modern tech stack with focus on scalability and user experience.</p>
+            <div class="tech-tags">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">AWS</span>
             </div>
           </article>
 
-          <article class="card">
-            <h3>Automation Script</h3>
-            <p>Automates repetitive ops tasks (health checks, reports, alerts).</p>
+          <article class="card project-card">
+            <div class="project-header">
+              <h3>Static Website Hosting (S3 + CloudFront)</h3>
+              <span class="project-status">Live</span>
+            </div>
+            <p>Scalable static website hosting solution using AWS S3 and CloudFront CDN with HTTPS, custom domain support, and automated deployments.</p>
+            <div class="tech-tags">
+              <span class="tag">AWS S3</span>
+              <span class="tag">CloudFront</span>
+              <span class="tag">Route53</span>
+            </div>
             <div class="links">
-              <a href="#" target="_blank" rel="noreferrer">Repo</a>
+              <a href="https://github.com/luisgarmir/Static-Website-S3-Cloudfront" target="_blank" rel="noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                </svg>
+                View Code
+              </a>
             </div>
           </article>
 
-          <article class="card">
-            <h3>Monitoring Dashboard</h3>
-            <p>Centralized visibility for services, logs, and key metrics.</p>
+          <article class="card project-card">
+            <div class="project-header">
+              <h3>AWS Monitoring & Alerting System</h3>
+              <span class="project-status">Live</span>
+            </div>
+            <p>Comprehensive monitoring solution using CloudWatch, SNS, and Lambda for automated alerting on infrastructure metrics and application health.</p>
+            <div class="tech-tags">
+              <span class="tag">CloudWatch</span>
+              <span class="tag">Lambda</span>
+              <span class="tag">SNS</span>
+              <span class="tag">Python</span>
+            </div>
             <div class="links">
-              <a href="#" target="_blank" rel="noreferrer">Demo</a>
+              <a href="https://github.com/luisgarmir/aws-monitoring-alerting" target="_blank" rel="noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                </svg>
+                View Code
+              </a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-header">
+              <h3>Asset Monitoring Platform</h3>
+              <span class="project-status">Live</span>
+            </div>
+            <p>Real-time asset tracking and monitoring platform with data visualization, alerting capabilities, and historical analytics for infrastructure management.</p>
+            <div class="tech-tags">
+              <span class="tag">React</span>
+              <span class="tag">AWS</span>
+              <span class="tag">DynamoDB</span>
+            </div>
+            <div class="links">
+              <a href="https://github.com/luisgarmir/asset-monitoring-platform" target="_blank" rel="noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                </svg>
+                View Code
+              </a>
             </div>
           </article>
         </div>
       </section>
 
       <section id="contact" class="container section">
-        <h2>Contact</h2>
-        <p>
-          Email: <a href="mailto:you@example.com">you@example.com</a>
-          · GitHub: <a href="#" target="_blank" rel="noreferrer">github.com/yourhandle</a>
+        <h2>Let's Connect</h2>
+        <p class="contact-intro">
+          Currently open to Cloud Engineer and DevOps opportunities. Let's build something reliable together.
         </p>
+        <div class="contact-links">
+          <a href="mailto:luisgarmir98@gmail.com" class="contact-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            luisgarmir98@gmail.com
+          </a>
+          <a href="https://github.com/luisgarmir" class="contact-link" target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+            github.com/luisgarmir
+          </a>
+          <a href="https://www.linkedin.com/in/luisagm/" class="contact-link" target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+            linkedin.com/in/luisagm
+          </a>
+        </div>
       </section>
     </main>
 

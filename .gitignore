@@ -26,3 +26,5 @@ terraform.rc
 # Environment files
 .env
 .env.*
+*.docx
+site/.DS_Store
