@@ -27,4 +27,4 @@ terraform.rc
 .env
 .env.*
 *.docx
-site/.DS_Store
+site/.DS_Store.DS_Store
